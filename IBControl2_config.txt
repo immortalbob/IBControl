@@ -1,0 +1,80 @@
+LAYOUT: IBControl2.Layout
+Consumables_Button_01,Burning Coal,#use Burning Coal
+Consumables_Button_02,Platinum Spirits,#use Platinum Spirits
+Consumables_Button_03,Coral Fragment,#use Coral Fragment
+Consumables_Button_04,Honeyed Life Mead,#use Honeyed Life Mead
+Consumables_Button_05,Honeyed Vigor Mead,#use Honeyed Vigor Mead
+Consumables_Button_06,Honeyed Mana Mead,#use Honeyed Mana Mead
+Consumables_Button_07,Essence of Cave Penguin,#use Essence of Cave Penguin
+Consumables_Button_08,Mug of Warm Cider,#use Mug of Warm Cider
+Consumables_Button_09,Cave Penguin Cake,#use Cave Penguin Cake
+Consumables_Button_10,Luminous Crystal of Vit,#use Luminous Crystal of Vitality
+Consumables_Button_11,Potion of Endless Vigor,#use Potion of Endless Vigor
+Consumables_Button_12,Potion of Destiny's Wind,#use Potion of Destiny's Wind
+Consumables_Button_13,NOTSET,#Command
+Consumables_Button_14,Apothecary Zongo's Stout,#use Apothecary Zongo's Stout
+Consumables_Button_15,Hunter's Stock Amber,#use Hunter's Stock Amber
+Consumables_Button_16,Amber Ape,#use Amber Ape
+Consumables_Button_17,Bobo's Stout,#use Bobo's Stout
+Consumables_Button_18,Tusker Spit Ale,#use Tusker Spit Ale
+Consumables_Button_19,Duke Raoul's Distillation,#Use Duke Raoul's Distillation
+Consumables_Button_20,Deck of Eyes,#use Deck of Eyes
+Consumables_Button_21,Deck of Hands,#use Deck of Hands
+Consumables_Button_22,Spectral Crystal of Life Giver,#use Spectral Crystal of the Life Giver
+Consumables_Button_23,NOTSET,#Command
+Consumables_Button_24,NOTSET,#Command
+Consumables_Button_25,Luminous Crystal of Rare Armor Damage Boost V,#use Luminous Crystal of Rare Armor Damage Boost V
+Consumables_Button_26,Luminous Crystal of Rare Damage Reduction V,#use Luminous Crystal of Rare Damage Reduction V
+Consumables_Button_27,Black Page of Salt and Ash,#use Black Page of Salt and Ash
+Blacklist_Button_01,Blacklist Count 1,#optset blacklistmonsterattemptcount 1
+Blacklist_Button_02,Blacklist Count 2,#optset blacklistmonsterattemptcount 2
+Blacklist_Button_03,Blacklist Count 3,#optset blacklistmonsterattemptcount 3
+Blacklist_Button_04,Blacklist Count 4,#optset blacklistmonsterattemptcount 4
+Blacklist_Button_05,Blacklist Count 9999,#optset blacklistmonsterattemptcount 9999
+Blacklist_Button_06,NOTSET,#command
+Blacklist_Button_07,Blacklist Seconds 10,#optset blacklistmonstertimeoutseconds 10
+Blacklist_Button_08,Blacklist Seconds 30,#optset blacklistmonstertimeoutseconds 30
+Blacklist_Button_09,Blacklist Seconds 60,#optset blacklistmonstertimeoutseconds 60
+Blacklist_Button_10,Blacklist Seconds 120,#optset blacklistmonstertimeoutseconds 120
+Blacklist_Button_11,Blacklist Seconds 240,#optset blacklistmonstertimeoutseconds 240
+Blacklist_Button_12,Blacklist Seconds 600,#optset blacklistmonstertimeoutseconds 600
+Blacklist_Button_13,Blacklist Seconds 9999,#optset blacklistmonstertimeoutseconds 9999
+Summon_Button_01,Summon 1 Primary,#action sumonea
+Summon_Button_02,Summon 1 Secondary,#action sumoneb
+Summon_Button_03,Summon 2 Primary,#action sumtwoa
+Summon_Button_04,Summon 2 Secondary,#action sumtwob
+Summon_Button_05,Summon 3 Primary,#action sumthreea
+Summon_Button_06,Summon 3 Secondary,#action sumthreeb
+Summon_Button_07,Summon 4 Primary,#action sumfoura
+Summon_Button_08,Summon 4 Secondary,#action sumfourb
+Summon_Button_09,Summon 5 Primary,#action sumfivea
+Summon_Button_10,Summon 5 Secondary,#action sumfiveb
+Summon_Button_11,Summon 6 Primary,#action sumsixa
+Summon_Button_12,Summon 6 Secondary,#action sumsixb
+Summon_Button_13,Summon 7 Primary,#action sumsevena
+Summon_Button_14,Summon 7 Secondary,#action sumsevenb
+Summon_Button_15,Summon 8 Primary,#action sumeighta
+Summon_Button_16,Summon 8 Secondary,#action sumeightb
+Summon_Button_17,Summon 9 Primary,#action sumninea
+Summon_Button_18,Summon 9 Secondary,#action sumnineb
+Emotes_Button_01,Wave,#action wave
+Emotes_Button_02,Point,#action point
+Emotes_Button_03,Laugh,#action laugh
+Emotes_Button_04,Cry,#action cry
+Emotes_Button_05,Joy,#action joy
+Emotes_Button_06,Kneel,#action kneel
+Emotes_Button_07,Sit,#action sit
+Emotes_Button_08,Lie Down,#action lie
+Emotes_Button_09,Stand,#action stand
+Emotes_Button_10,You Can Dance If You Want To...,#action dance
+Emotes_Button_11,AFK,#action afk
+Active_Button_01,Target Lock True,#optset targetlock true
+Active_Button_02,Target Lock False,#optset targetlock false
+Active_Button_03,/mt Select,/tell [player],#action select
+Active_Button_04,NOTSET,#optset usearcs 3
+Active_Button_05,NOTSET,#optset usearcs 2
+Active_Button_06,NOTSET,#optset usearcs 1
+Active_Button_07,Backpack Panel Open,#action Backpack Open
+Active_Button_08,NOTSET,#command
+Active_Button_09,Fellowship Panel Open,#action fpo
+Misc_Button_01,Main Options,/ch setprofile IBControl_config.txt

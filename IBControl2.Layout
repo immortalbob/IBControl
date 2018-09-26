@@ -1,0 +1,119 @@
+windowposition: 130, 190
+windowstartopen: true
+windowsize: 350, 250
+buttonpadding: 7
+tab: Consumables
+tabvisible: false
+tabsize: 450, 400
+tabposition: 390, 50
+cols: 6  
+rows: 13
+Button_01: 2
+Button_02: 2
+Button_03: 2
+Button_04: 2
+Button_05: 2
+Button_06: 2
+Button_07: 2
+Button_08: 2
+Button_09: 2
+Button_10: 2
+Button_11: 2
+Button_12: 6
+Button_13: 6
+Button_14: 2
+Button_15: 2
+Button_16: 2
+Button_17: 2
+Button_18: 2
+Button_19: 2
+Button_20: 3
+Button_21: 3
+Button_22: 3
+Button_23: 3
+Button_24: 6
+Button_25: 6
+Button_26: 6
+Button_27: 6
+tab: Blacklist
+tabvisible: false
+tabsize: 350, 350
+tabposition: 390, 50
+cols: 2  
+rows: 8
+Button_01: 1
+Button_02: 1
+Button_03: 1
+Button_04: 1
+Button_05: 2
+Button_06: 2
+Button_07: 1
+Button_08: 1
+Button_09: 1
+Button_10: 1
+Button_11: 1
+Button_12: 1
+Button_13: 2
+tab: Summon
+tabvisible: false
+tabsize: 350, 350
+tabposition: 390, 50
+cols: 2  
+rows: 9
+Button_01: 1
+Button_02: 1
+Button_03: 1
+Button_04: 1
+Button_05: 1
+Button_06: 1
+Button_07: 1
+Button_08: 1
+Button_09: 1
+Button_10: 1
+Button_11: 1
+Button_12: 1
+Button_13: 1
+Button_14: 1
+Button_15: 1
+Button_16: 1
+Button_17: 1
+Button_18: 1
+tab: Emotes
+tabvisible: false
+tabsize: 400, 225
+tabposition: 390, 50
+cols: 3  
+rows: 5
+Button_01: 1
+Button_02: 1
+Button_03: 1
+Button_04: 1
+Button_05: 1
+Button_06: 1
+Button_07: 1
+Button_08: 1
+Button_09: 1
+Button_10: 3
+Button_11: 3
+tab: Active
+tabvisible: false
+tabsize: 400, 250
+tabposition: 390, 50
+cols: 3  
+rows: 5
+Button_01: 3
+Button_02: 3
+Button_03: 3
+Button_04: 1
+Button_05: 1
+Button_06: 1
+Button_07: 1
+Button_08: 1
+Button_09: 1
+tab: Misc
+tabvisible: false
+tabsize: 400, 125
+tabposition: 390, 50
+cols: 1  
+rows: 2
+Button_01: 2

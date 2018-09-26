@@ -1,0 +1,267 @@
+LAYOUT: IBControl.Layout
+Basic_Button_01,Follow,#action follow
+Basic_Button_02,Stay,#action stay
+Basic_Button_03,NOTSET,#Command
+Basic_Button_04,NOTSET,#Command
+Basic_Button_05,Force Buff,#action buff
+Basic_Button_06,Cancel Buff,#echo /vt cancelforcebuff
+Basic_Button_07,All On,#action all on
+Basic_Button_08,All Off,#action all off
+Basic_Button_09,Combat On,#optset enablecombat true
+Basic_Button_10,Combat Off,#optset enablecombat false
+Basic_Button_11,Buff On,#optset enablebuffing true
+Basic_Button_12,Buff Off,#optset enablebuffing false
+Basic_Button_13,Nav On,#optset enablenav true
+Basic_Button_14,Nav Off,#optset enablenav false
+Basic_Button_15,Loot All,#action loot all
+Basic_Button_16,Loot Rares Only,#action rares only
+Basic_Button_17,Summon On,#optset summonpets true
+Basic_Button_18,Summon Off,#optset summonpets false
+Basic_Button_19,Peace Mode When Idle On,#optset idlepeacemode true
+Basic_Button_20,Peace Mode When Idle Off,#optset idlepeacemode false
+Basic_Button_21,Navigation Only,#action nav only
+Advanced_Button_01,Use Closest NPC,#action npc
+Advanced_Button_02,Use Closest Vendor,#action ucv
+Advanced_Button_03,Corners On,#optset followaroundcorners true
+Advanced_Button_04,Corners Off,#optset followaroundcorners false
+Advanced_Button_05,Jiggle On,#optset dojiggle true
+Advanced_Button_06,Jiggle Off,#optset dojiggle false
+Advanced_Button_07,Nav Boost On,#optset navpriorityboost true
+Advanced_Button_08,Nav Boost Off,#optset navpriorityboost false
+Advanced_Button_09,Loot Boost On,#optset lootpriorityboost true
+Advanced_Button_10,Loot Boost Off,#optset lootpriorityboost false
+Advanced_Button_11,Open Doors On,#optset opendoors true
+Advanced_Button_12,Open Doors Off,#optset opendoors false
+Advanced_Button_13,Autostack On,#optset autostack true
+Advanced_Button_14,Autostack Off,#optset autostack false
+Advanced_Button_15,Autocram On,#optset autocram true
+Advanced_Button_16,Autocram Off,#optset autocram false
+Advanced_Button_17,Use Dispel Items On,#optset usedispelitems true
+Advanced_Button_18,Use Dispel Items Off,#optset usedispelitems false
+Advanced_Button_19,Cast Dispel Self On,#optset castdispelself true
+Advanced_Button_20,Cast Dispel Self Off,#optset castdispelself false
+Advanced_Button_21,Rebuff When Idle On,#optset idlebufftopoff true
+Advanced_Button_22,Rebuff When Idle Off,#optset idlebufftopoff false
+Advanced_Button_23,Attack Height Low,#optset defaultmeleeattackheight 3
+Advanced_Button_24,Attack Height Medium,#optset defaultmeleeattackheight 2
+Advanced_Button_25,Attack Height High,#optset defaultmeleeattackheight 1
+Advanced_Button_26,Create and Recruit Fellow,/tell [player],#action fellow
+Advanced_Button_27,Disband Fellow,#action disband
+Advanced_Button_28,Recomp at Celdiseth,#action recomp
+Advanced_Button_29,Fastcast Buffs On,#optset fastcastbuffs true
+Advanced_Button_30,Fastcast Buffs Off,#optset fastcastbuffs false
+Advanced_Button_31,Breakable Turn To On,#optset usebreakableturnto true
+Advanced_Button_32,Breakable Turn To Off,#optset usebreakableturnto false
+Advanced_Button_33,Don't Shoot At Walls On,#optset useprojectileawareness true
+Advanced_Button_34,Don't Shoot At Walls Off,#optset useprojectileawareness false
+Recalls_Button_01,Use Gateway,#action ucp
+Recalls_Button_02,Use Closest Portal,#action ucp
+Recalls_Button_03,Marketplace,#navto marketplace
+Recalls_Button_04,/Lifestone,#navto lifestone sending
+Recalls_Button_05,[9561],#navto Primary
+Recalls_Button_06,[9562],#navto Secondary
+Recalls_Button_07,[10733],#navto Portal Recall
+Recalls_Button_08,[10725],#navto Aphus Lassel
+Recalls_Button_09,[10727],#navto Sanctuary
+Recalls_Button_10,[10728],#navto Singularity Caul
+Recalls_Button_11,[25233],#navto Glenden Wood
+Recalls_Button_12,[10724],#navto Aerlinthe
+Recalls_Button_13,[10726],#navto Mount Lethe
+Recalls_Button_14,[10729],#navto Ulgrim
+Recalls_Button_15,[26219],#navto Bur
+Recalls_Button_16,[26325],#navto Paradox
+Recalls_Button_17,[26293],#navto Graveyard
+Recalls_Button_18,[26329],#navto Colosseum
+Recalls_Button_19,[28169],#navto Gear Knight
+Recalls_Button_20,[28659],#navto Neftet
+Recalls_Button_21,[19347],#navto Candeth Keep
+Recalls_Button_22,[28915],#navto Facility Hub
+Recalls_Button_23,[28187],#navto Rynthid
+Recalls_Button_24,[9560],#navto Lifestone Recall
+Recalls_Button_25,[9441],#navto Lifestone Sending
+Recalls_Button_26,[8588],#navto Hometown
+Recalls_Button_27,[8590],#navto Mansion
+Recalls_Button_28,[8383],#navto House
+Recalls_Button_29,[25233],#navto Viridian Rise
+Recalls_Button_30,[25233],#navto Viridian Tree
+Recalls_Button_31,[26524],#navto Society
+Recalls_Button_32,[26525],#navto Society
+Recalls_Button_33,[26526],#navto Society
+Nav_Button_01,Tou-Tou KT's,#quest Tou-Tou Killtasks
+Nav_Button_02,Frozen Valley KT's,#quest Frozen Valley Killtasks
+Nav_Button_03,Hoshino KT's,#quest Hoshino Killtasks
+Nav_Button_04,Rynthid KT's,#quest Rynthid Killtasks
+Nav_Button_05,Graveyard KT's,#quest Graveyard Killtasks
+Nav_Button_06,Neftet KT's,#quest Neftet Killtasks
+Nav_Button_07,NOTSET,#Command
+Nav_Button_08,Arwic Chests,#navto Arwic Chests
+Nav_Button_09,Asheron's Castle,#navto Asheron's Castle
+Nav_Button_10,Currency Exchange,#navto Currency Exchanger
+Nav_Button_11,Valley of Death,#navto vod
+Nav_Button_12,Singularity Caul,#navto Singularity Caul
+Nav_Button_13,Vissidal,#navto Vissidal
+Nav_Button_14,Western Aphus Lassel,#navto WAL
+Nav_Button_15,Master Mage,#navto Master Mage
+Nav_Button_16,NOTSET,#Command
+Nav_Button_17,Bandit Castle,#navto Bandit Castle
+Nav_Button_18,Candeth Keep,#navto Candeth Keep
+Nav_Button_19,Crater,#navto Crater
+Nav_Button_20,Wai Jhou,#navto Wai Jhou
+Nav_Button_21,Ayan Baqur,#navto Ayan Baqur
+Nav_Button_22,NOTSET,#Command
+Nav_Button_23,Viridian Root,#navto Viridian Root
+Nav_Button_24,Use Viridian Portal,#action npc
+Nav_Button_25,NOTSET,#Command
+Nav_Button_26,Ivory Crafter,#navto Ivory Crafter
+Nav_Button_27,Leather Crafter,#navto Leather Crafter
+Nav_Button_28,Stone Collector,#navto Stone Collector
+Nav_Button_29,Collector,#navto Collector
+Nav_Button_30,Trophy Smith,#navto Trophy Smith
+Nav_Button_31,Sanamar Collector,This button does nothing
+Nav_Button_32,Northwatch Castle,#navto Northwatch Castle
+Nav_Button_33,Freebooter Keep,This button does nothing
+Nav2_Button_01,Holtburg,#navto Holtburg
+Nav2_Button_02,Shoushi,#navto shoushi
+Nav2_Button_03,Yaraq,#navto yaraq
+Nav2_Button_04,Sanamar,#navto sanamar
+Nav2_Button_05,Cragstone,#navto cragstone
+Nav2_Button_06,Hebian-To,#navto hebian-to
+Nav2_Button_07,Zaikhal,#navto zaikhal
+Nav2_Button_08,Greenspire,#navto greenspire
+Nav2_Button_09,Arwic,#navto arwic
+Nav2_Button_10,Baishi,#navto baishi
+Nav2_Button_11,Al-Arqas,#navto al arqas
+Nav2_Button_12,Bluespire,#navto bluespire
+Nav2_Button_13,Dryreach,#navto dryreach
+Nav2_Button_14,Kara,#navto kara
+Nav2_Button_15,Al-Jalima,#navto al jalima
+Nav2_Button_16,Redspire,#navto redspire
+Nav2_Button_17,Eastham,#navto eastham
+Nav2_Button_18,Kryst,#navto kryst
+Nav2_Button_19,Khayyaban,#navto khayyaban
+Nav2_Button_20,Silyun,#navto silyun
+Nav2_Button_21,Fort Tethana,#navto tethana
+Nav2_Button_22,Lin,#navto lin
+Nav2_Button_23,Qalaba'r,#navto qalaba'r
+Nav2_Button_24,Eastwatch,#navto eastwatch
+Nav2_Button_25,Glenden Wood,#navto glenden wood
+Nav2_Button_26,Mayoi,#navto mayoi
+Nav2_Button_27,Samsur,#navto samsur
+Nav2_Button_28,Westwatch,#navto westwatch
+Nav2_Button_29,Lytelthorpe,#navto lytelthorpe
+Nav2_Button_30,Nanto,#navto nanto
+Nav2_Button_31,Tufa,#navto tufa
+Nav2_Button_32,Ahurenga,#navto ahurenga
+Nav2_Button_33,Plateau,#navto plateau
+Nav2_Button_34,Sawato,#navto sawato
+Nav2_Button_35,Uziz,#navto uziz
+Nav2_Button_36,Fiun Outpost,#navto fiun outpost
+Nav2_Button_37,Rithwic,#navto rithwic
+Nav2_Button_38,Yanshi,#navto yanshi
+Nav2_Button_39,Xarabydun,#navto xarabydun
+Nav2_Button_40,Timaru,#navto timaru
+Nav2_Button_41,Stonehold,#navto stonehold
+Nav2_Button_42,Macniall's Freehold,#navto freehold
+Nav2_Button_43,NOTSET,#Command
+Nav2_Button_44,Neydissa Castle,#navto neydissa
+Nav2_Button_45,NOTSET,#Command
+Nav2_Button_46,Tou-Tou,#navto tou-tou
+Nav2_Button_47,NOTSET,#Command
+Nav2_Button_48,Danby's Outpost,#navto danby's outpost
+Nav2_Button_49,NOTSET,#Command
+Nav2_Button_50,NOTSET,#Command
+Nav2_Button_51,NOTSET,#Command
+Nav2_Button_52,Linvak Tukal,#navto linvak tukal
+Rngs_Button_01,Attack Range 5,#optset attackdistance 0.021
+Rngs_Button_02,Attack Range 10,#optset attackdistance 0.042
+Rngs_Button_03,Attack Range 15,#optset attackdistance 0.063
+Rngs_Button_04,Attack Range 20,#optset attackdistance 0.084
+Rngs_Button_05,Attack Range 25,#optset attackdistance 0.105
+Rngs_Button_06,Attack Range 30,#optset attackdistance 0.126
+Rngs_Button_07,Attack Range 35,#optset attackdistance 0.147
+Rngs_Button_08,Attack Range 40,#optset attackdistance 0.168
+Rngs_Button_09,Attack Range 45,#optset attackdistance 0.189
+Rngs_Button_10,Attack Range Max,#optset attackdistance 0.294
+Rngs_Button_11,NOTSET,#command
+Rngs_Button_12,Approach 0,#optset approachdistance 0
+Rngs_Button_13,Approach 5,#optset approachdistance 0.021
+Rngs_Button_14,Approach 10,#optset approachdistance 0.042
+Rngs_Button_15,Approach 20,#optset approachdistance 0.084
+Rngs_Button_16,Approach 30,#optset approachdistance 0.126
+Rngs_Button_17,Approach 45,#optset approachdistance 0.189
+Rngs_Button_18,Approach Max,#optset approachdistance 0.294
+Rngs_Button_19,NOTSET,#command
+Rngs_Button_20,Follow 2,#optset navclosestoprange 0.0083333
+Rngs_Button_21,Follow 5,#optset navclosestoprange 0.021
+Rngs_Button_22,Follow 10,#optset navclosestoprange 0.042
+Rngs_Button_23,Follow 25,#optset navclosestoprange 0.105
+Rngs_Button_24,Follow 35,#optset navclosestoprange 0.147
+Rngs_Button_25,Follow 50,#optset navclosestoprange 0.210
+Rngs_Button_26,Follow Max,#optset navclosestoprange 0.294
+Rngs_Button_27,NOTSET,#command
+Rngs_Button_28,Custom Pet Range On,#optset petrangemode 1
+Rngs_Button_29,Custom Pet Range Off,#optset petrangemode 0
+Rngs_Button_30,Pet Range 5,#optset petcustomrange 0.021
+Rngs_Button_31,Pet Range 10,#optset petcustomrange 0.042
+Rngs_Button_32,Pet Range 15,#optset petcustomrange 0.063
+Jump_Button_01,Jump 100%,#jump 700 false 1000
+Jump_Button_02,NOTSET,#command
+Jump_Button_03,Tap Jump,#action tap jump
+Jump_Button_04,NOTSET,#command
+Jump_Button_05,NOTSET,#command
+Jump_Button_06,NOTSET,#command
+Jump_Button_07,Jump 75%,#jump 700 false 750
+Jump_Button_08,Jump 50%,#jump 700 false 500
+Jump_Button_09,NOTSET,#command
+Jump_Button_10,NOTSET,#command
+Jump_Button_11,NOTSET,#command
+Jump_Button_12,NOTSET,#command
+Jump_Button_13,NOTSET,#command
+Jump_Button_14,Jump 25%,#jump 700 false 250
+Jump_Button_15,NOTSET,#command
+Jump_Button_16,NOTSET,#command
+Jump_Button_17,NOTSET,#command
+Jump_Button_18,NOTSET,#command
+Jump_Button_19,NW,#action face northwest
+Jump_Button_20,N,#action face north
+Jump_Button_21,NE,#action face northeast
+Jump_Button_22,NOTSET,#command
+Jump_Button_23,NOTSET,#command
+Jump_Button_24,NOTSET,#command
+Jump_Button_25,NOTSET,#command
+Jump_Button_26,NOTSET,#command
+Jump_Button_27,W,#action face west
+Jump_Button_28,NOTSET,#command
+Jump_Button_29,E,#action face east
+Jump_Button_30,NOTSET,#command
+Jump_Button_31,NOTSET,#command
+Jump_Button_32,NOTSET,#command
+Jump_Button_33,NOTSET,#command
+Jump_Button_34,NOTSET,#command
+Jump_Button_35,SW,#action face southwest
+Jump_Button_36,S,#action face south
+Jump_Button_37,SE,#action face southeast
+Jump_Button_38,NOTSET,#command
+Jump_Button_39,NOTSET,#command
+Jump_Button_40,Shift Jump 100%,#jump 700 true 1000
+Jump_Button_41,NOTSET,#command
+Jump_Button_42,NOTSET,#command
+Jump_Button_43,NOTSET,#command
+Jump_Button_44,Shift Jump 75%,#jump 700 true 750
+Jump_Button_45,Shift Jump 50%,#jump 700 true 500
+Jump_Button_46,NOTSET,#command
+Jump_Button_47,NOTSET,#command
+Jump_Button_48,NOTSET,#command
+Jump_Button_49,Shift Jump 25%,#jump 700 true 250
+Jump_Button_50,Tap Jump Forward,#jump 700 false 50 
+Jump_Button_51,NOTSET,#command
+Jump_Button_52,Shift Tap Jump Forward,#jump 700 true 50 
+Misc_Button_01,Extra Options,/ch setprofile IBControl2_config.txt
+Misc_Button_02,Loot Chests,This button does NOTHING
+Misc_Button_03,NOTSET,#command
+Misc_Button_04,Log Off,#echo /mt logout
+Misc_Button_05,Refresh Profiles,#echo /vt refresh
+Misc_Button_06,Reload Meta (Single Client),/vt meta load IBControl
+Misc_Button_07,Reload Meta (All Clients),#echo /vt meta load IBControl
+Misc_Button_08,NOTSET,#command
+Misc_Button_09,Version 1.9.9,This button does NOTHING
