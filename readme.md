@@ -7,9 +7,6 @@ IBControl is a meta that allows you to control an entire fellowship running the 
 
 It is meant to be a player driven meta, it will not just do things for you other than navigation to predefined areas. You are at the helm of a 9 man fellowship, and all the controls you might need are at your fingertips!
 
-Below you will find screenshots of the Chaos Helper UI that IBControl uses, each predefined command has a button, however there is room for unlimited custom chat commands. (explained below)
-
-
 Requirements:
 
     Virindi Bundle of course
@@ -28,7 +25,7 @@ What do I do with the zip file?
 
 
 Setup:
-Everything you need to edit is now handily in the uppermost state in the meta called "*** Edit Here ***". Below is an image with the areas you need to edit in order to make the entire meta functional.
+Everything you need to edit is now handily in the uppermost state in the meta called "*** Edit Here ***". 
 
 1. On the left you can toggle settings on or off by changing always to never, or vice-versa. For the first two lines, if you do not want the remote, or chaos helper profiles loaded, set them to false.
 
