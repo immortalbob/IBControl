@@ -30,7 +30,6 @@ What do I do with the zip file?
 Setup:
 Everything you need to edit is now handily in the uppermost state in the meta called "*** Edit Here ***". Below is an image with the areas you need to edit in order to make the entire meta functional.
 
-Image
 1. On the left you can toggle settings on or off by changing always to never, or vice-versa. For the first two lines, if you do not want the remote, or chaos helper profiles loaded, set them to false.
 
 2. On the right if you MUST change your fellowship name, it is set to CHANGEME. If you wish to use predefined profiles upon meta start up, you can enter their names in place of <profilename>. Remember it is case sensitive.
@@ -38,23 +37,7 @@ Image
 3. Characters: on the right, add each character name from your fellowship replacing CHANGEME. charone should be your leader.
 
 4. Follow Nav: on an different character on another account from your leader, go to the route tab in vtank, choose follow from the drop down menu on the lower left, select your leader in game and hit the add button in the route tab of vtank. Now go to the meta tab, go to the %% Follow Nav %% section in the *** Edit Here *** state at the top. now open the rule up, click on load embedded nav file, and import your nav. (should say 1pts) Reload the meta on all characters in the vtank profile tab, and you're good to go!
-1 x
-Immortalbob of MT
-Top
 
-User avatar	
-Immortalbob	
-    Site Admin
-    Posts: 539	
-    Contact: Contact Immortalbob
-
-    Edit
-    Delete post
-    Report this post
-    Information
-    Quote
-
-Post#3 » December 8th, 2016, 5:48 pm
 How do I use it?
 Once you have the files unpacked from the zip, and placed in the required directories just login to AC, load the meta in the profiles tab, and start vtank# The chaos helper window(control panel) should automatically open up. Stop right here though, you have to go through the setup process located in a post above. In order to make use of all of IBControl's features, follow the setup process above.
 
@@ -62,7 +45,6 @@ When your setup is completed IBControl is a breeze to use. You have 2 options in
 
 Chat Commands:
 
-Code: Select all
 #navto
 Syntax: #navto <place>
 Example: #navto mayoi
