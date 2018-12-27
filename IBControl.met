@@ -11,7 +11,7 @@ n
 n
 n
 n
-328
+332
 i
 4
 i
@@ -310,7 +310,7 @@ n
 s
 e
 s
-setvar[fellowname, CHANGEME]
+setvar[fellowname, Wrecking Crew]
 i
 7
 TABLE
@@ -503,7 +503,7 @@ n
 s
 e
 s
-setvar[charone, CHANGEME]
+setvar[charone, Immortalbob]
 i
 7
 TABLE
@@ -516,7 +516,7 @@ n
 s
 e
 s
-setvar[chartwo, CHANGEME]
+setvar[chartwo, Idiot]
 i
 7
 TABLE
@@ -529,7 +529,7 @@ n
 s
 e
 s
-setvar[charthree, CHANGEME]
+setvar[charthree, Moron]
 i
 7
 TABLE
@@ -542,7 +542,7 @@ n
 s
 e
 s
-setvar[charfour, CHANGEME]
+setvar[charfour, Fool]
 i
 7
 TABLE
@@ -555,7 +555,7 @@ n
 s
 e
 s
-setvar[charfive, CHANGEME]
+setvar[charfive, Dimwit]
 i
 7
 TABLE
@@ -568,7 +568,7 @@ n
 s
 e
 s
-setvar[charsix, CHANGEME]
+setvar[charsix, Dolt]
 i
 7
 TABLE
@@ -581,7 +581,7 @@ n
 s
 e
 s
-setvar[charseven, CHANGEME]
+setvar[charseven, Dense]
 i
 7
 TABLE
@@ -594,7 +594,7 @@ n
 s
 e
 s
-setvar[chareight, CHANGEME]
+setvar[chareight, Stupid]
 i
 7
 TABLE
@@ -607,7 +607,7 @@ n
 s
 e
 s
-setvar[charnine, CHANGEME]
+setvar[charnine, Dope]
 s
 *** Edit Here ***
 i
@@ -8518,6 +8518,190 @@ Default2
 i
 2
 i
+1
+TABLE
+2
+K
+V
+n
+n
+2
+i
+28
+TABLE
+2
+k
+v
+n
+n
+2
+s
+p
+s
+(^(\[[A-z]+?\] |)You|.*\<Tell:IIDString:.+:(?<name>[^\<]*)\>.+\<\\Tell\>) (?<saythink>.*), \"#give (?<item>.*)\"$
+s
+c
+s
+
+i
+3
+TABLE
+2
+K
+V
+n
+n
+11
+i
+26
+TABLE
+2
+k
+v
+n
+n
+1
+s
+e
+s
+getvar[capturegroup_saythink]==say
+i
+26
+TABLE
+2
+k
+v
+n
+n
+1
+s
+e
+s
+getvar[capturegroup_saythink]==think
+i
+26
+TABLE
+2
+k
+v
+n
+n
+1
+s
+e
+s
+getvar[capturegroup_name]==getvar[charthree]
+i
+26
+TABLE
+2
+k
+v
+n
+n
+1
+s
+e
+s
+getvar[capturegroup_name]==getvar[charfour]
+i
+26
+TABLE
+2
+k
+v
+n
+n
+1
+s
+e
+s
+getvar[capturegroup_name]==getvar[charfive]
+i
+26
+TABLE
+2
+k
+v
+n
+n
+1
+s
+e
+s
+getvar[capturegroup_name]==getvar[charsix]
+i
+26
+TABLE
+2
+k
+v
+n
+n
+1
+s
+e
+s
+getvar[capturegroup_name]==getvar[charseven]
+i
+26
+TABLE
+2
+k
+v
+n
+n
+1
+s
+e
+s
+getvar[capturegroup_name]==getvar[chareight]
+i
+26
+TABLE
+2
+k
+v
+n
+n
+1
+s
+e
+s
+getvar[capturegroup_name]==getvar[charnine]
+i
+26
+TABLE
+2
+k
+v
+n
+n
+1
+s
+e
+s
+getvar[capturegroup_name]==getvar[charone]
+i
+26
+TABLE
+2
+k
+v
+n
+n
+1
+s
+e
+s
+getvar[capturegroup_name]==getvar[chartwo]
+s
+Give
+s
+Default2
+i
+2
+i
 3
 TABLE
 2
@@ -10719,6 +10903,98 @@ s
 Default2
 s
 Get Over Here
+i
+26
+i
+1
+TABLE
+2
+k
+v
+n
+n
+1
+s
+e
+s
+wobjectfindininventorybyname[getvar[capturegroup_item]]==0
+s
+Default2
+s
+Give
+i
+1
+i
+3
+i
+0
+TABLE
+2
+K
+V
+n
+n
+2
+i
+7
+TABLE
+2
+k
+v
+n
+n
+1
+s
+e
+s
+setvar[item, wobjectfindininventorybyname[getvar[capturegroup_item]]]
+i
+7
+TABLE
+2
+k
+v
+n
+n
+1
+s
+e
+s
+setvar[givee, wobjectfindnearestbynameandobjectclass[24, getvar[capturegroup_name]]]
+s
+Give
+i
+1
+i
+3
+i
+0
+TABLE
+2
+K
+V
+n
+n
+2
+i
+7
+TABLE
+2
+k
+v
+n
+n
+1
+s
+e
+s
+actiontrygiveitem[getvar[item], getvar[givee]]
+i
+1
+s
+Give
+s
+Give
 i
 1
 i
